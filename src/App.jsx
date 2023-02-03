@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import Header from './components/Header'
+import ResultList from './components/ResultList'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App text-3xl font-bold underline">
-     <h1>HEHEH</h1>
+    <div className="">
+     <Header/>
+     <ResultList/>
     </div>
   )
 }
